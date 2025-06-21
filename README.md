@@ -43,8 +43,6 @@ python ./train_gad.py
 python ./test_gad.py
 ```
 
-
-
 ## Experiment on N-CARS Dataset
 
 ### Data Preprocessing
@@ -65,7 +63,7 @@ python ./train_ncars.py
 python ./test_ncars.py
 ```
 
-## Citing SpikeFPN
+## Citation
 
 ```latex
 @ARTICLE{spikefpn,
