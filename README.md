@@ -1,4 +1,15 @@
-# SpikeFPN: Automotive Object Detection via Learning Sparse Events by Spiking Neurons
+
+---
+
+<h3 align="center"> SpikeFPN: Automotive Object Detection via Learning Sparse Events by Spiking Neurons </h3>
+
+---
+
+<p align="center">
+  <picture>
+    <img src="docs/source/_static/spikefpn-overview.jpg" alt="SpikeFPN Overview" height="560">
+  </picture>
+</p>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2307.12900">
