@@ -1,12 +1,24 @@
-# SpikeFPN: Automotive Object Detection via Learning Sparse Events by Spiking Neurons
+
+---
+
+<h3 align="center"> SpikeFPN: Automotive Object Detection via Learning Sparse Events by Spiking Neurons </h3>
+
+---
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2307.12900">
-    <img src="https://img.shields.io/badge/paper-arxiv-red?style=for-the-badge" alt="SpikeFPN Paper on arXiv">
-  </a>
+  <picture>
+    <img src="docs/source/_static/spikefpn-overview.jpg" alt="SpikeFPN Overview" height="440">
+  </picture>
 </p>
 
-This work explores the membrane potential dynamics of spiking neural networks (SNNs) and their ability to modulate sparse events. We introduce an innovative spike-triggered adaptive threshold mechanism designed for stable training. Building on these insights, we present a specialized spiking feature pyramid network (SpikeFPN) optimized for automotive event-based object detection. Comprehensive evaluations demonstrate that SpikeFPN surpasses both traditional SNN and advanced artificial neural network (ANN) models.
+This work explores the membrane potential dynamics of spiking neural networks (SNNs) and their ability to process sparse, asynchronous events. We propose an innovative **spike-triggered adaptive threshold** mechanism that facilitates stable and effective training. Building on this foundation, we design a specialized **spiking feature pyramid network (SpikeFPN)** optimized for automotive event-based object detection. Comprehensive evaluations indicate that SpikeFPN achieves competitive performance compared to traditional SNNs and advanced artificial neural network (ANN) models while maintaining efficient computation.
+
+- **Official publication** in *IEEE Transactions on Cognitive and Developmental Systems*:  
+  [DOI: 10.1109/TCDS.2024.3410371](https://doi.org/10.1109/TCDS.2024.3410371)
+
+- **Accepted manuscript** available on *arXiv*:  
+  [arXiv:2307.12900](https://arxiv.org/abs/2307.12900)
+  
 
 ## Environment Configuration
 
@@ -31,8 +43,6 @@ python ./train_gad.py
 python ./test_gad.py
 ```
 
-
-
 ## Experiment on N-CARS Dataset
 
 ### Data Preprocessing
@@ -53,7 +63,7 @@ python ./train_ncars.py
 python ./test_ncars.py
 ```
 
-## Citing SpikeFPN
+## Citation
 
 ```latex
 @ARTICLE{spikefpn,
