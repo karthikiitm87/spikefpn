@@ -7,7 +7,7 @@
 
 <p align="center">
   <picture>
-    <img src="docs/source/_static/spikefpn-overview.jpg" alt="SpikeFPN Overview" height="440">
+    <img src="docs/source/_static/spikefpn-overview.jpg" alt="SpikeFPN Overview" height="420">
   </picture>
 </p>
 
