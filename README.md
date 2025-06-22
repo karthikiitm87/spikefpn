@@ -65,14 +65,17 @@ python ./test_ncars.py
 
 ## Citation
 
+Please cite the following publication if this work was helpful to your research.
 ```latex
-@ARTICLE{spikefpn,
-    author={Zhang, Hu and Li, Yanchen and Leng, Luziwei and Che, Kaiwei and Liu, Qian and Guo, Qinghai and Liao, Jianxing and Cheng, Ran},
-    journal={IEEE Transactions on Cognitive and Developmental Systems}, 
-    title={Automotive Object Detection via Learning Sparse Events by Spiking Neurons}, 
-    year={2024},
-    pages={1-15},
-    doi={10.1109/TCDS.2024.3410371}
+@article{spikefpn,
+  author  = {Hu Zhang and Yanchen Li and Luziwei Leng and Kaiwei Che and Qian Liu and Qinghai Guo and Jianxing Liao and Ran Cheng},
+  title   = {Automotive Object Detection via Learning Sparse Events by Spiking Neurons},
+  journal = {{IEEE} Trans. Cogn. Dev. Syst.},
+  volume  = {16},
+  number  = {6},
+  pages   = {2110--2124},
+  year    = {2024},
+  doi     = {10.1109/TCDS.2024.3410371},
 }
 ```
 
