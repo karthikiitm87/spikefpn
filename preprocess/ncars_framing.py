@@ -50,6 +50,6 @@ if __name__ == "__main__":
         SAVE_PATH = f"{args.save_path}/SBT{frame_inteval_ms}ms_S{S}C{C}/{args.data_mode}_{args.data_class}"
         if not os.path.isdir(SAVE_PATH):
             os.mkdir(SAVE_PATH)
-        np.save(f"{SAVE_PATH}/obj_{file_name.split("/")[-1].split("_")[1]}.npy", frames)
-    
+        np.save(f"{SAVE_PATH}/obj_{file_name.split('/')[-1].split('_')[1]}.npy", frames)
+
     print(f"{args.data_mode} dataset of `{args.data_class}` framing has finished.")
